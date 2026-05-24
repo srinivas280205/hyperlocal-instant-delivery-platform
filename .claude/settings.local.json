@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(npx create-react-app *)",
+      "Bash(mkdir context *)",
+      "Bash(mkdir pages\\\\customer pages\\\\rider pages\\\\admin pages\\\\auth)",
+      "Bash(npx react-scripts *)",
+      "Bash(git --version)",
+      "Bash(gh --version)",
+      "PowerShell(winget install --id GitHub.cli --silent --accept-source-agreements --accept-package-agreements 2>&1)",
+      "PowerShell(tail -10)",
+      "PowerShell($env:Path = [System.Environment]::GetEnvironmentVariable\\(\"Path\",\"Machine\"\\) + \";\" + [System.Environment]::GetEnvironmentVariable\\(\"Path\",\"User\"\\); gh --version)",
+      "Bash(git init *)",
+      "Bash(git remote *)",
+      "Bash(git add *)",
+      "Bash(Remove-Item -Recurse -Force \"C:\\\\Users\\\\srini\\\\OneDrive\\\\Desktop\\\\Hyperlocal Instant Delivery Platform\\\\frontend\\\\.git\")"
+    ]
+  }
+}
