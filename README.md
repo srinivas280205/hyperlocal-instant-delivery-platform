@@ -87,7 +87,11 @@ npm start           # Opens http://localhost:3000
 
 ---
 
-## Demo Accounts (after running seed)
+## Demo Accounts
+
+> These accounts are created only after running `npm run seed` locally.
+> They do **not** exist on any live deployment by default.
+> Change these credentials before going to production.
 
 | Role | Email | Password |
 |------|-------|----------|
@@ -199,10 +203,10 @@ Package surcharges:
 
 ---
 
-## Future Enhancements
-- Push notifications (FCM)
-- Real payment gateway (Razorpay)
-- Chat between rider and customer
-- Multi-stop delivery
-- AI-based rider allocation
-- Fleet management for businesses
+## Upcoming Features
+- 💬 In-app chat between rider and customer *(in progress)*
+- 🔔 Push notifications (FCM)
+- 💳 Real payment gateway (Razorpay)
+- 🗺️ Multi-stop delivery
+- 🤖 AI-based smart rider allocation
+- 🚚 Fleet management for businesses
