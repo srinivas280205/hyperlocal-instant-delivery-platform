@@ -14,7 +14,23 @@
       "Bash(git init *)",
       "Bash(git remote *)",
       "Bash(git add *)",
-      "Bash(Remove-Item -Recurse -Force \"C:\\\\Users\\\\srini\\\\OneDrive\\\\Desktop\\\\Hyperlocal Instant Delivery Platform\\\\frontend\\\\.git\")"
+      "Bash(Remove-Item -Recurse -Force \"C:\\\\Users\\\\srini\\\\OneDrive\\\\Desktop\\\\Hyperlocal Instant Delivery Platform\\\\frontend\\\\.git\")",
+      "Bash(git config *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git branch *)",
+      "Bash(git push *)",
+      "Bash(node -e \"require\\('dotenv'\\).config\\(\\); const mongoose = require\\('mongoose'\\); mongoose.connect\\(process.env.MONGODB_URI\\).then\\(\\(\\) => { console.log\\('MongoDB Connected ✅'\\); process.exit\\(0\\); }\\).catch\\(e => { console.log\\('MongoDB Error:', e.message\\); process.exit\\(1\\); }\\);\")",
+      "Bash(npm start *)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(Read \"C:\\\\Users\\\\srini\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-srini-OneDrive-Desktop-Hyperlocal-Instant-Delivery-Platform\\\\c45c3d70-2366-444e-bff8-ad7d68bb0592\\\\tasks\\\\bthzyqub4.output\")",
+      "mcp__Claude_in_Chrome__list_connected_browsers",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)",
+      "Bash(node -e ' *)",
+      "Bash(node seed.js)",
+      "Bash(curl -s http://localhost:5000/api/auth/test)",
+      "Bash(curl -s http://localhost:5000)",
+      "PowerShell($proc = Get-NetTCPConnection -LocalPort 5000 -State Listen -ErrorAction SilentlyContinue | Select-Object -First 1; if \\($proc\\) { Stop-Process -Id \\(Get-Process -Id \\(Get-NetTCPConnection -LocalPort 5000 -State Listen\\).OwningProcess\\).Id -Force; Write-Output \"Killed process on port 5000\" } else { Write-Output \"No process on port 5000\" })",
+      "Bash(curl -s -X POST http://localhost:5000/api/auth/login -H \"Content-Type: application/json\" -d \"{\\\\\"email\\\\\":\\\\\"user@quickdrop.com\\\\\",\\\\\"password\\\\\":\\\\\"user123\\\\\"}\")"
     ]
   }
 }
