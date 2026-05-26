@@ -13,10 +13,10 @@
   "license": "ISC",
   "type": "commonjs",
   "engines": {
-    "node": "18.x"
+    "node": "20.x"
   },
   "dependencies": {
-    "bcryptjs": "^3.0.3",
+    "bcryptjs": "^2.4.3",
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
