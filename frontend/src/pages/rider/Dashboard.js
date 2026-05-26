@@ -24,6 +24,7 @@ function RequestCard({ order, onAccept, onIgnore }) {
 
   useEffect(() => {
     if (timeLeft <= 0) { setActive(false); onIgnore(order._id); }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [timeLeft]);
 
   const pct = (timeLeft / 30) * 100;
@@ -120,6 +121,7 @@ export default function RiderDashboard() {
       return () => { socket.disconnect(); navigator.geolocation.clearWatch(watcher); };
     }
     return () => socket.disconnect();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [available]);
 
   const toggleAvailability = async () => {
